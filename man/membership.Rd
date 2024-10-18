@@ -22,8 +22,7 @@ Three membership functional models were thus used to standardize these indices, 
 Standardized the indices by membership functional models
 }
 \references{
-Zhang HR, and Lei XD. 2014. Health management techniques for typical forest types. Beijing: Publishing house of forestry, China
-Chai ZZ.2016.National forest health evaluation system at the forest stand level in China\url{http://www.forest-soil.net/Upload/ueditor/file/20160514/1463221795322480.pdf}
+Zhang HR, and Lei XD. 2014. Health management techniques for typical forest types. Beijing: Publishing house of forestry, China.
 }
 \author{
 Zongzheng Chai

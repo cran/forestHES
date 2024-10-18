@@ -2,7 +2,7 @@
 \alias{forestHES-package}
 \alias{forestHES}
 \docType{package}
-\title{Forest Health Evaluation System at the Forest Stand Level in China}
+\title{Forest health evaluation system at the forest stand level}
 \description{
 Assessing forest ecosystem health is an effective way for forest resource
 management.Zhang & Lei (2014) proposed and developed a national forest health evaluation system at the forest stand level using analytic hierarchy process (AHP), has a high application value and practical significance.The R packge concentrates
@@ -11,7 +11,6 @@ on to relize the calculation of the national forest health evaluation system.
 \author{Zongzheng Chai,chaizz@126.com}
 \references{
 Zhang HR, and Lei XD. 2014. Health management techniques for typical forest types. Beijing: Publishing house of forestry, China.
-Chai ZZ.2016.National forest health evaluation system at the forest stand level in China\url{http://www.forest-soil.net/Upload/ueditor/file/20160514/1463221795322480.pdf}
 }
 \examples{
 ##forest health evaluation for singel sample plot
@@ -43,12 +42,12 @@ tree.multiplefhes
 
 ##More regulare method of forest health evaluation for multiple sample plot
 data(testIndex)
-tree.fhes<-fhes(c1=testIndex$c1,c2=testIndex$c2,c3=testIndex$c3,c4=testIndex$c4,
-     c5=testIndex$c5,c6=testIndex$c6,c7=testIndex$c7,c8=testIndex$c8,
-     c9=testIndex$c9,c10=testIndex$c10,c11=testIndex$c11,c12=testIndex$c12,
-    c13=testIndex$c13,c14=testIndex$c14,c15=testIndex$c15,c16=testIndex$c16,
-    c17=testIndex$c17,c18=testIndex$c18,c19=testIndex$c19,c20=testIndex$c20,
-    c21=testIndex$c21)
+tree.fhes<-fhes(c1=testIndex$C1,c2=testIndex$C2,c3=testIndex$C3,c4=testIndex$C4,
+     c5=testIndex$C5,c6=testIndex$C6,c7=testIndex$C7,c8=testIndex$C8,
+     c9=testIndex$C9,c10=testIndex$C10,c11=testIndex$C11,c12=testIndex$C12,
+    c13=testIndex$C13,c14=testIndex$C14,c15=testIndex$C15,c16=testIndex$C16,
+    c17=testIndex$C17,c18=testIndex$C18,c19=testIndex$C19,c20=testIndex$C20,
+    c21=testIndex$C21)
 tree.fhes
 pie(table(tree.fhes$evaluation$grade))
 }

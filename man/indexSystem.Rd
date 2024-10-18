@@ -27,11 +27,9 @@ ID see legend
 }
 \source{
 Zhang HR, and Lei XD. 2014. Health management techniques for typical forest types. Beijing: Publishing house of forestry, China.
-Chai ZZ.2016.National forest health evaluation system at the forest stand level in China.http://www.forest-soil.net/Upload/ueditor/file/20160514/1463221795322480.pdf
 }
 \references{
 Zhang HR, and Lei XD. 2014. Health management techniques for typical forest types. Beijing: Publishing house of forestry, China
-Chai ZZ.2016.National forest health evaluation system at the forest stand level in China\url{http://www.forest-soil.net/Upload/ueditor/file/20160514/1463221795322480.pdf}
 }
 \examples{
 data(indexSystem)
